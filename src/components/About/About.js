@@ -63,7 +63,7 @@ const About = () => {
               </div>
             }
             title="April 2025 - Current"
-            desc="FullStack Developer at MaddyCustom."
+            desc="Paid FullStack Developer at MaddyCustom."
           />
 
           <FeaturedCard
@@ -82,8 +82,8 @@ const About = () => {
                 <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
               </div>
             }
-            title="March 2025 - Present"
-            desc="Backend Developer at Upraiss(now BuildQuick)."
+            title="July 2024 - January 2025"
+            desc="Paid Backend Developer at Upraiss(now BuildQuick)."
           />
 
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
