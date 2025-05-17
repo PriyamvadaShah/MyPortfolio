@@ -23,6 +23,10 @@ const Details = () => {
         className="flex gap-2"
       >
         <Label indicator={80}>Javascript</Label>
+
+        <Label indicator={80}>C++</Label>
+                <Label indicator={80}>Python</Label>
+
       </motion.div>
 
       <motion.h2
@@ -67,6 +71,8 @@ const Details = () => {
         <Label indicator={90}>GitHub</Label>
         <Label indicator={100}>VS Code</Label>
         <Label indicator={70}>Postman</Label>
+        <Label indicator={70}>Docker</Label>
+        <Label indicator={70}>Linux</Label>
       </motion.div>
     </div>
   );

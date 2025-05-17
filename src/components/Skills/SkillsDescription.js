@@ -26,7 +26,26 @@ const SkillsDescription = () => {
       >
         In the expansive field of web development, I've acquired diverse
         experience in &nbsp;
-        <span className="font-semibold">Front-End Web Development</span>
+        <span className="font-semibold">Full-Stack Web Development</span>
+      </motion.p>
+
+      <motion.h2
+        initial={{ x: 50, opacity: 0 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        className="font-medium text-lg text-amber-500 dark:text-amber-200 mt-5"
+      >
+        <Reveal width="100%">Back-End</Reveal>
+      </motion.h2>
+      <motion.p
+        initial={{ x: 50, opacity: 0 }}
+        transition={{ duration: 1 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        className="text-sm font-light"
+      >
+        I have a deep passion for developing APIs using Node.js and Express.js. APIs that work smoothly, perfectly and have clean code.
       </motion.p>
 
       <motion.h2

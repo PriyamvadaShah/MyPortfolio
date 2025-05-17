@@ -23,7 +23,7 @@ const Hero = () => {
       initial="initial"
       animate="animate"
     >
-      Frontend Developer
+      Fullstack Developer
     </motion.div>
   );
 };

@@ -51,7 +51,7 @@ const Hero = () => {
         transition={{ delay: 0.5 }}
         className="text-sm pt-3 md:text-xl text-amber-500 font-bold z-0"
       >
-        Frontend Developer
+        Fullstack Developer
       </motion.h2>
 
       <motion.div
@@ -62,7 +62,7 @@ const Hero = () => {
       >
         <span className="text-slate-700 dark:text-slate-200">
           <TypeAnimation
-            sequence={["Welcome👋", 2000, "Himanshu Chandola"]}
+            sequence={["Welcome👋", 2000, "Priyamvada Shah"]}
             speed={30}
             wrapper="span"
             repeat={Infinity}

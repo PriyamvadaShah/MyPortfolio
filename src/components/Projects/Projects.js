@@ -5,39 +5,49 @@ import Featured from "./Featured";
 import Section from "../Common/Section";
 import ProjectCard from "./ProjectCard";
 import RightSvg from "../../assets/svg/right-pattern.svg";
+import kaizo from "../../assets/kaizo.png";
+import wellmindzone from "../../assets/wellmindzone.png";
+import portfolioo from "../../assets/portfolioo.png";
 
 export const projectsData = [
   {
     id: 1,
-    thumbnail: "https://i.imgur.com/UEqATGm.jpeg",
-    title: "E-Paper Amar Ujala ",
-    description: "Amar Ujala Hindi E-Newspaper with all available cities.",
-    live: "https://epaper-amar-ujala-hindi.netlify.app/",
-    code: "https://github.com/himanshuchandola/Amar-Ujala-E-Paper",
-    tech: ["React.js"],
+    thumbnail: kaizo,
+    title: "Kaizo - Game Store ",
+    description: "An game library with attractive UI and features.",
+    live: "https://game-library-a9fa86.netlify.app/",
+    code: "https://github.com/PriyamvadaShah/Game-Library",
+    tech: ["React JS, Node JS, Express, Docker, MongoDB"],
     featured: false,
   },
   {
     id: 2,
-    thumbnail: "https://i.imgur.com/GzAhqVA.png",
-    title: "Track My Expenses ",
+    thumbnail: wellmindzone,
+    title: "WellMindZone - Mental Health Platform",
     description:
-      "Track My Expenses is a web app that helps to manage your personal Expenses with beautiful utilities like charts and calculative paying of dues.",
-    live: "https://track-my-expenses-4th-sem-project-gehu.netlify.app/",
-    code: "https://github.com/himanshuchandola/Track-My-Expenses",
-    tech: ["React.js"],
+      "A platform to help people with mental health issues.",
+    code: "https://github.com/PriyamvadaShah/WellMindZone",
+    tech: ["React JS, Node JS, Express, Docker, MongoDB"],
     featured: false,
   },
   {
     id: 3,
-    thumbnail:
-      "https://raw.githubusercontent.com/himanshuchandola/E-Voting-Web-System/main/readme%20images/image-007.jpg",
-    title: "Matdaan - E-Voting System ",
+    thumbnail: "../../assets/kaizo.png",
+    title: "Foodie Express | Food Ordering Website ",
     description:
-      "A Interactive Way To Solve Conventional Voting via E-Voting. ",
-    live: "https://github.com/himanshuchandola/E-Voting-Web-System",
-    code: "https://github.com/himanshuchandola/E-Voting-Web-System",
-    tech: ["HTMl5, PHP, CSS3, Bootstrap, MySQL"],
+      "A food ordering website with attractive UI and features.",
+    code: "https://github.com/PriyamvadaShah/Food-Ordering-Website-Foodie-Express-",
+    tech: ["React JS, Node JS, Express, MongoDB"],
+    featured: false,
+  },
+  {
+    id: 4,
+    thumbnail: portfolioo,
+    title: "My Portfolio - The one you're looking at! ",
+    description:
+      "A portfolio website to showcase my work and skills.",
+    code: "https://github.com/PriyamvadaShah/My-Portfolio",
+    tech: ["React JS"],
     featured: false,
   },
 ];
@@ -94,7 +104,7 @@ const Projects = () => {
       <span>
         For More Projects and Other work visit my{" "}
         <a
-          href="https://github.com/himanshuchandola?tab=repositories&q=&type=source&language=&sort="
+          href="https://github.com/PriyamvadaShah?tab=repositories&q=&type=source&language=&sort="
           style={{ fontWeight: "bold", color: "red" }}
         >
           GitHub

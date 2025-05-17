@@ -54,10 +54,10 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="mailto:himanshuchandolaofficial@gmail.com"
+                    href="mailto:priyamvadashahlko@gmail.com"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800 flex items-center"
                   >
-                    himanshuchandolaofficial@gmail.com{" "}
+                    priyamvadashahlko@gmail.com{" "}
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>
@@ -75,8 +75,7 @@ const ContactDetails = () => {
           viewport={{ once: true }}
           className="font-extralight text-sm mb-5"
         >
-          If you need any further information, such as my phone number, please
-          do not hesitate to send me an email first.
+          Open for any opportunities I seem fit for.
         </motion.p>
 
         <motion.h2
@@ -129,10 +128,10 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="https://www.linkedin.com/in/himanshuchandola/"
+                    href="https://www.linkedin.com/in/priyamvada-shah-186089289/"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800  flex items-center"
                   >
-                    linkedin.com/in/himanshuchandola
+                    linkedin.com/in/priyamvadashah
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>
@@ -149,10 +148,10 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="https://github.com/himanshuchandola"
+                    href="https://github.com/PriyamvadaShah"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800  flex items-center"
                   >
-                    github.com/himanshuchandola
+                    github.com/PriyamvadaShah
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>

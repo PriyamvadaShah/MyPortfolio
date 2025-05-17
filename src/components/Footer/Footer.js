@@ -3,28 +3,23 @@ import { MdEmail } from "react-icons/md";
 import { motion } from "framer-motion";
 import AppFooterCopyright from "./FooterCopyright";
 // import VisitorCounter from "../VisitorCounter/VisitorCounter";
-import { ReactComponent as PeerlistIcon } from "../../assets/svg/Peerlist.svg";
+// import { ReactComponent as PeerlistIcon } from "../../assets/svg/Peerlist.svg";
 
 const socialLinks = [
   {
     id: 2,
     icon: <FiGithub />,
-    url: "https://www.github.com/himanshuchandola",
+    url: "https://www.github.com/PriyamvadaShah",
   },
   {
     id: 4,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/himanshuchandola/",
-  },
-  {
-    id: 6,
-    icon: <PeerlistIcon style={{ width: "24px", height: "24px" }} />,
-    url: "https://peerlist.io/himanshuhere",
+    url: "https://www.linkedin.com/in/priyamvada-shah-186089289/",
   },
   {
     id: 5,
     icon: <MdEmail />,
-    url: "mailto:himanshuchandolaofficial@gmail.com",
+    url: "mailto:priyamvadashahlko@gmail.com",
   },
 ];
 
